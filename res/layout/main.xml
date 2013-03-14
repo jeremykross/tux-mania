@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Welcome to Tux-Mania\nfrom the maker of Tempest in a Teapot"
+	/>
+<Button  
+    android:id="@+id/newGame"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:layout_weight="1"
+    android:text="New Game"
+    />
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="You can't get games like this on the iPhone store!\n...mercifully."
+	/>
+</LinearLayout>
+
